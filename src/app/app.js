@@ -5,7 +5,8 @@ angular.module('SlCV', [
     'SlCV.about',
     'SlCV.contact',
     'SlCV.projects',
-    'ui.router'
+    'ui.router',
+    'pascalprecht.translate'
 ])
 
 .config(function myAppConfig($stateProvider, $urlRouterProvider) {

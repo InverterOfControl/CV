@@ -11,45 +11,64 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
-        /*font-size: 20px;*/
+        font-size: 20px;
 font-style: normal;
-margin-left: 5px;
-}.flaticon-business133:before {
+
+}.flaticon-asp2:before {
 	content: "\e000";
 }
-.flaticon-folder232:before {
+.flaticon-business133:before {
 	content: "\e001";
 }
-.flaticon-github17:before {
+.flaticon-folder232:before {
 	content: "\e002";
 }
-.flaticon-github6:before {
+.flaticon-github17:before {
 	content: "\e003";
 }
-.flaticon-home168:before {
+.flaticon-github6:before {
 	content: "\e004";
 }
-.flaticon-html3:before {
+.flaticon-google116:before {
 	content: "\e005";
 }
-.flaticon-java7:before {
+.flaticon-home168:before {
 	content: "\e006";
 }
-.flaticon-linkedin12:before {
+.flaticon-html3:before {
 	content: "\e007";
 }
-.flaticon-logotype3:before {
+.flaticon-java7:before {
 	content: "\e008";
 }
-.flaticon-sql4:before {
+.flaticon-jquery:before {
 	content: "\e009";
 }
-.flaticon-team2:before {
+.flaticon-linkedin12:before {
 	content: "\e00a";
 }
-.flaticon-telephone34:before {
+.flaticon-logotype131:before {
 	content: "\e00b";
 }
-.flaticon-user2:before {
+.flaticon-logotype3:before {
 	content: "\e00c";
+}
+.flaticon-love67:before {
+	content: "\e00d";
+	font-size: 40px;
+}
+.flaticon-sql4:before {
+	content: "\e00e";
+}
+.flaticon-team2:before {
+	content: "\e00f";
+}
+.flaticon-telephone34:before {
+	content: "\e010";
+}
+.flaticon-user2:before {
+	content: "\e011";
+}
+.flaticon-xing7:before {
+	content: "\e012";
 }

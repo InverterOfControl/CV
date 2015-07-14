@@ -13,7 +13,7 @@
         templateUrl: 'about/about.tpl.html'
       }
     },
-    data:{ pageTitle: 'Über?' }
+    data:{ pageTitle: 'Über' }
   });
 })
 
