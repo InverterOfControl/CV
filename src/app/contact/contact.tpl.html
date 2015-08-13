@@ -5,17 +5,17 @@
     </h1>
 
     <div class="col-md-4">
-        <form>
+        <div ng-form name="mail">
             <div class="form-group">
                 <label for="senderMail">Email address</label>
-                <input type="email" class="form-control" id="senderMail" placeholder="Ihre E-Mail-Adresse">
+                <input type="email" class="form-control" id="senderMail" placeholder="Ihre E-Mail-Adresse" ng-model="from">
             </div>
             <div class="form-group">
                 <label for="text">Nachricht</label>
-                <textarea class="form-control" id="text" placeholder="Ihre Nachricht"></textarea>
+                <textarea class="form-control" id="text" placeholder="Ihre Nachricht" ng-model="message"></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Absenden</button>
-        </form>
+            <button type="submit" ng-click="sendMail()" class="btn btn-primary">Absenden</button>
+        </div>
     </div>
 
     <div class="col-md-4">
