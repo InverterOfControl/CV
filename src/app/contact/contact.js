@@ -17,9 +17,13 @@
     });
 })
 
-.controller('ContactCtrl', function ContactCtrl($scope, $http) {
-   $http.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded";
-   
+.controller('ContactCtrl', function ContactCtrl($scope, $http) {   
+  $scope.alerts = [];
+  
+  $scope.closeAlert = function(index) {
+    $scope.alerts.splice(index, 1);
+  };
+  
   $scope.sendMail = function() {
     $http({
         url: 'assets/mail.php',
@@ -27,10 +31,10 @@
         data: { 'message' : $scope.mail.message, 'from': $scope.mail.from }
     })
     .then(function(response) {
-            // success
+            $scope.alerts.push({msg: 'Nachricht verschickt!', type: 'success'});
     }, 
-    function(response) { // optional
-            // failed
+    function(response) { 
+            $scope.alerts.push({msg: 'Fehler beim Verschicken!', type: 'danger'});
     });
 };
 });
