@@ -31,6 +31,6 @@
     "karma-jasmine": "latest"
   },
   "scripts": {
-    "start": "http-server build"
+    "start": "grunt build && http-server build"
   }
 }

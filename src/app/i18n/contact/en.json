@@ -1,0 +1,16 @@
+{
+    "Headline":
+    {
+        "contact": "Contact"
+    },
+    "sender": "Sender",
+    "message": "Message",
+    "yourMail": "Your E-Mail-Address",
+    "yourMessage": "Your Message",
+    "or": "Or",
+    "send": "Send",
+    "Actions":{
+        "messageSend": "Message Send!",
+        "messageError":"Error while sending message!"
+    }
+}

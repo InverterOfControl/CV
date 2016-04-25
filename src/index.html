@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
 
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
+    
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAACEhIQAxsbGAP///wAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMzMzMzMzMzMwAAADMzMzMwERERAzMzMwEiIiIQMzMzASIiIhAAMzMBIiIiEDMDMwEiIiIQMwMzASIiIhAzAzMBIiIiEDMDMwEREREQADMzAAAAAAAzMzMzMTMTMzMzMzMxMxMzMzMzMxMxMzMzMzMzEzEzMzMzMzMzMzMzMzP//wAA8D8AAOAfAADADwAAwAMAAMANAADADQAAwA0AAMANAADAAwAAwA8AAPt/AAD7fwAA9v8AAPb/AAD//wAA" rel="icon" type="image/x-icon" />
+    
     <link href="assets/flaticon/flaticon.css" rel="stylesheet">
-
+    
     <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
     <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
 
@@ -43,22 +45,23 @@
             <li ui-sref-active="active">
               <a href ui-sref="about">
                   <i class="flaticon flaticon-business133"></i>
-                  Über
+                  {{'Nav.about' | translate }}
               </a>
             </li>
               <li ui-sref-active="active">
                   <a href ui-sref="projects">
                       <i class="flaticon flaticon-folder232"></i>
-                      Projekte
+                      {{'Nav.projects' | translate }}
                   </a>
               </li>
               <li ui-sref-active="active">
                   <a href ui-sref="contact">
                       <i class="flaticon flaticon-telephone34"></i>
-                      Kontakt
+                      {{'Nav.contact' | translate }}
                   </a>
               </li>
           </ul>
+          <button id="langButton" ng-click='switchLang()' type="button" class="btn btn-default navbar-btn navbar-right">{{ currentLanguage | uppercase}}</button>
         </div>
       </div>
 	  </div>
@@ -70,13 +73,13 @@
       <div class="container">
         <div class="footer-inner">
           <p class="text-center">
-            (c) 2015 <a href="http://www.SL.com">Sascha Laabs</a>. 
-            Diese Seite verwendet
+            (c) <span ng-bind="currentYear"></span> <a href="http://www.SL.com">Sascha Laabs</a>. 
+            {{ 'Footer.thisSiteUses' | translate }}
             <a href="http://www.angularjs.org">AngularJS</a>,
-            <a href="http://getbootstrap.com">Bootstrap</a> und
+            <a href="http://getbootstrap.com">Bootstrap</a> {{ 'and' | translate }}
             <a href="http://angular-ui.github.com/bootstrap">UI Bootstrap</a>.
             
-              <br/>Icons von <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a>, <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> von <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> lizensiert durch <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
+              <br/>Icons {{ 'from' | translate }} <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>, <a href="http://www.flaticon.com/authors/icomoon" title="Icomoon">Icomoon</a>, <a href="http://www.flaticon.com/authors/simpleicon" title="SimpleIcon">SimpleIcon</a> {{'from' | translate }} <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> {{'licensed by' | translate}} <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>
           </p>
         </div>
       </div>

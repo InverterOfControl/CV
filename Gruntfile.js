@@ -118,6 +118,16 @@ module.exports = function ( grunt ) {
           }
        ]   
       },
+      bulid_i18n:{
+        files: [
+          {
+            src: ['<%= i18n_files.json %>'],
+            dest: '<%= build_dir %>/i18n/',
+            cwd: 'src/app/i18n',
+            expand: true
+          }
+          ]
+      },
       build_appjs: {
         files: [
           {
@@ -537,7 +547,7 @@ module.exports = function ( grunt ) {
   grunt.registerTask( 'build', [
     'clean', 'html2js', 'jshint', 'coffeelint', 'coffee', 'less:build',
     'concat:build_css', 'copy:build_app_assets', 'copy:build_vendor_assets',
-    'copy:build_appjs', 'copy:build_vendorjs', 'copy:build_vendorcss', 'index:build'
+    'copy:build_appjs', 'copy:build_vendorjs', 'copy:build_vendorcss', 'copy:bulid_i18n', 'index:build'
   ]);
 
   /**

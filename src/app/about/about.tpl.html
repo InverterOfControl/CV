@@ -1,7 +1,7 @@
-﻿<div class="row">
+<div class="row">
 <div class="col-md-12">
 <h1 class="page-header">
-    Erfolge
+    {{ 'Achievments' | translate }}
 </h1>
 <div class="marketing">
 <div class="row">
@@ -13,9 +13,9 @@
     </div>
     <div class="media-body">
       <h4 class="media-heading">
-      Großstadtkind
+      {{ 'Headline.bigCityChild' | translate }}
       </h4>
-      Geboren und aufgewachsen in Berlin, Deutschland.
+      {{ 'Desc.bigCityChild' | translate }}
     </div>
   </div>
 
@@ -25,9 +25,9 @@
     </div>
     <div class="media-body">
       <h4 class="media-heading">
-      Ein Bund für's Leben
+      {{ 'Headline.tiedTheKnot' | translate }}
       </h4>
-      Glücklich verheiratet.
+      {{ 'Desc.tiedTheKnot' | translate }}
     </div>
   </div>
 
@@ -37,9 +37,9 @@
     </div>
     <div class="media-body">
       <h4 class="media-heading">
-      Elternfreuden
+      {{ 'Headline.parentingJoy' | translate }}
       </h4>
-      Vater von zwei Kindern.
+      {{ 'Desc.parentingJoy' | translate }}
     </div>
   </div>
 
@@ -51,9 +51,21 @@
       </div>
       <div class="media-body">
         <h4 class="media-heading">
-        Bereit für Action
+        {{ 'Headline.readyForAction' | translate }}
         </h4>
-        Fachinformatiker für Anwendungsentwicklung.
+        {{ 'Desc.readyForAction' | translate }}
+      </div>
+    </div>
+    
+      <div class="media">
+      <div class="media-left pull-left" style="font-size:36px;">
+        <i class="fa fa-keyboard-o"></i>
+      </div>
+      <div class="media-body">
+        <h4 class="media-heading">
+        {{ 'Headline.oldHand' | translate }}
+        </h4>
+        {{'Desc.oldHand' | translate: translationData }}
       </div>
     </div>
   </div>
@@ -71,19 +83,19 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="flaticon flaticon-logotype131"></i> C#</h4>
           <p>
-            Objektorientiert und stark typisiert. Perfekt für verlässliche und wartbare Software.
+            {{ 'Skills.csharp' | translate }}
           </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="flaticon flaticon-java7"></i> JavaScript</h4>
           <p>
-            Der Standard für Internetanwendungen.
+            {{ 'Skills.js' | translate }}
           </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="flaticon flaticon-sql4"></i> SQL</h4>
           <p>
-            Der Standard-Syntax für relationale Datenbanken.
+            {{ 'Skills.sql' | translate }}
           </p>
         </div>
       </div>
@@ -91,19 +103,19 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="fa fa-star"></i> AngularJS</h4>
           <p>
-            Geniales Framework für SinglePageApplications.
+            {{ 'Skills.angular' | translate }}
           </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="flaticon flaticon-jquery"></i> jQuery</h4>
           <p>
-            Die Javascript-Bibliothek, die schon fast Standard ist.
+            {{ 'Skills.jquery' | translate }}
           </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="flaticon flaticon-team2"></i> Team Foundation Server</h4>
           <p>
-            Versionskontrolle im .NET-Umfeld.
+            {{ 'Skills.tfs' | translate }}
           </p>
         </div>
       </div>
@@ -111,19 +123,39 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="flaticon flaticon-github6"></i> Git</h4>
           <p>
-            Just do git!
+            {{ 'Skills.git' | translate }}
           </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="flaticon flaticon-asp2"></i> ASP.NET</h4>
           <p>
-            Webandwendungen auf Business-Level.
+            {{ 'Skills.aspnet' | translate }}
           </p>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-4">
           <h4><i class="flaticon flaticon-html3"></i> HTML 5</h4>
           <p>
-            Neueste Standards.
+            {{ 'Skills.html5' | translate }}
+          </p>
+        </div>
+      </div>
+       <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h4><i class="icon-mongodb"></i> MongoDB</h4>
+          <p>
+            {{ 'Skills.mongodb' | translate }}
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h4><i class="icon-nodejs"></i> Node.js</h4>
+          <p>
+            {{ 'Skills.nodejs' | translate }}
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <h4><img src="assets/images/icon_TeamCity.png" /> TeamCity</h4>
+          <p>
+            {{ 'Skills.teamCity' | translate }}
           </p>
         </div>
       </div>

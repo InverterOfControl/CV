@@ -67,7 +67,11 @@ module.exports = {
       'vendor/placeholders/angular-placeholders-0.0.1-SNAPSHOT.min.js',
       'vendor/angular-ui-router/release/angular-ui-router.js',
       'vendor/angular-ui-utils/modules/route/route.js',
-      'vendor/angular-translate/angular-translate.js'
+      'vendor/angular-translate/angular-translate.js',
+      'vendor/angular-translate-loader-partial/angular-translate-loader-partial.js',
+      'vendor/font-mfizz/dist/font-mfizz.css',
+      'vendor/font-mfizz/dist/font-mfizz.woff',
+      'vendor/font-mfizz/dist/font-mfizz.ttf'
     ],
     css: [
     ],
@@ -75,4 +79,7 @@ module.exports = {
 	
     ]
   },
+  i18n_files: {
+   json: ['**/*.json']
+  }
 };

@@ -17,6 +17,6 @@
     });
 })
 
-.controller('ProjectsCtrl', function ProjectsCtrl($scope) {
-   
+.controller('ProjectsCtrl', function ProjectsCtrl($scope, $translatePartialLoader) {
+   $translatePartialLoader.addPart('projects');
 });

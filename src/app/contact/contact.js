@@ -1,4 +1,6 @@
-﻿angular.module('SlCV.contact', [
+/*global angular*/
+
+angular.module('SlCV.contact', [
     'ui.router',
     'placeholders',
     'ui.bootstrap'
@@ -17,7 +19,9 @@
     });
 })
 
-.controller('ContactCtrl', function ContactCtrl($scope, $http) {   
+.controller('ContactCtrl', function ContactCtrl($scope, $http, $translatePartialLoader, $translate) {   
+  $translatePartialLoader.addPart('contact');
+  
   $scope.alerts = [];
   
   $scope.closeAlert = function(index) {
@@ -31,10 +35,14 @@
         data: { 'message' : $scope.mail.message, 'from': $scope.mail.from }
     })
     .then(function(response) {
-            $scope.alerts.push({msg: 'Nachricht verschickt!', type: 'success'});
+        $translate('Actions.messageSend').then(function(text){
+            $scope.alerts.push({msg: text, type: 'success'});
+        });
     }, 
     function(response) { 
-            $scope.alerts.push({msg: 'Fehler beim Verschicken!', type: 'danger'});
+        $translate('Actions.messageError').then(function(error){
+            $scope.alerts.push({msg: error, type: 'danger'});
+        });
     });
 };
 });

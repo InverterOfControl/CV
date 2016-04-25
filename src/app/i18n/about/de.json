@@ -1,0 +1,31 @@
+{
+ "Headline":{
+    "bigCityChild" : "Großstadtkind",
+    "tiedTheKnot" : "Ein Bund für's Leben",
+    "parentingJoy" : "Elternfreuden",
+    "readyForAction": "Bereit für Action",
+    "oldHand" : "Alter Hase"
+ },
+ "Desc":{
+     "bigCityChild": "Geboren und aufgewachsen in Berlin, Deutschland.",
+     "tiedTheKnot" : "Glücklich verheiratet.",
+    "parentingJoy" : "Vater von zwei Kindern.",
+    "readyForAction":  "Fachinformatiker für Anwendungsentwicklung.",
+    "oldHand" : "Programmiererfahrung seit {{programmingSince}} Jahren."
+ },
+ "Achievments" : "Erfolge",
+ "Skills":{
+     "csharp" : "Objektorientiert und stark typisiert. Perfekt für verlässliche und wartbare Software.",
+     "js" : "Der Standard für Internetanwendungen.",
+     "sql": "Der Standard-Syntax für relationale Datenbanken.",
+     "angular": "Geniales Framework für SinglePageApplications.",
+     "jquery": "Die Javascript-Bibliothek, die schon fast Standard ist.",
+     "tfs": "Versionskontrolle und Buildsystem im .NET-Umfeld.",
+     "git": "Just do git!",
+     "aspnet": "Webandwendungen auf Business-Level.",
+     "html5": "Neueste Standards.",
+     "mongodb": "Schemafreie Open-Source Datanbank.",
+     "nodejs": "Serverseitiges JavaScript.",
+     "teamCity":"Powerful Continuous Integration."
+ }
+}

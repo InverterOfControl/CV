@@ -1,0 +1,12 @@
+{
+    "Nav":{
+        "about": "Über",
+        "contact": "Kontakt",
+        "projects": "Projekte"
+    },
+    "Footer":{
+        "thisSiteUses": "Diese Seite verwendet"
+    },
+    "from": "von",
+    "and": "und"
+}

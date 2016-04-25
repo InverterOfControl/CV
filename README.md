@@ -2,20 +2,18 @@
 
 ## Todos:
 
-### skills
+### skills to add
 
-+ mongodb
 + biztalk
 + sharepoint
-+ nodejs
 + octopus deploy
-+ teamcity
- 
++ one more achievement
+
 ### functions
 
-+ no projects yet
-+ switch to bootstrap 4 (?)
-+ make visual apprearance unique (looks too much like bootstrap default)
+1 no projects yet
+2 switch to bootstrap 4 (?)
+4 make visual apprearance unique (looks too much like bootstrap default)
  
 ### bugs
 

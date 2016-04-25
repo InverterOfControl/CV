@@ -1,26 +1,26 @@
 ﻿<div class="row">
 <div class="col-md-12">
     <h1 class="page-header">
-        Kontakt
+        {{'Headline.contact' | translate}}
     </h1>
 
     <div class="col-md-4">
         <div ng-form name="mail">
             <div class="form-group">
-                <label for="senderMail">Absender</label>
-                <input type="email" class="form-control" id="senderMail" placeholder="Ihre E-Mail-Adresse" ng-model="mail.from">
+                <label for="senderMail">{{'sender' | translate}}</label>
+                <input type="email" class="form-control" id="senderMail" placeholder="{{'yourMail' | translate}}" ng-model="mail.from">
             </div>
             <div class="form-group">
-                <label for="text">Nachricht</label>
-                <textarea class="form-control" id="text" placeholder="Ihre Nachricht" ng-model="mail.message"></textarea>
+                <label for="text">{{'message' | translate}}</label>
+                <textarea class="form-control" id="text" placeholder="{{'yourMessage' | translate}}" ng-model="mail.message"></textarea>
             </div>
-            <button type="submit" ng-click="sendMail()" class="btn btn-primary">Absenden</button>
+            <button type="submit" ng-click="sendMail()" class="btn btn-primary">{{'send' | translate}}</button>
         </div>
 		<alert dismiss-on-timeout="4000" ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)">{{alert.msg}}</alert>
     </div>
 
     <div class="col-md-4">
-        <h1 class="text-center">Oder</h1>
+        <h1 class="text-center">{{'or' | translate}}</h1>
 		<h1 class="text-center">||</h1>
     </div>
 

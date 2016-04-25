@@ -1,0 +1,31 @@
+{
+ "Headline":{
+    "bigCityChild" : "Big City Child",
+    "tiedTheKnot" : "Tied the knot",
+    "parentingJoy" : "Parenting Joy",
+    "readyForAction": "Ready for action",
+    "oldHand" : "Old Hand"
+ },
+ "Desc":{
+     "bigCityChild": "Born and raised in Berlin, Germany.",
+     "tiedTheKnot" : "Happily married.",
+    "parentingJoy" : "Father of two.",
+    "readyForAction":  "Specialised Computer Scientist.",
+    "oldHand" : "Programming experience for {{programmingSince}} years."
+ },
+ "Achievments" : "Achievments",
+ "Skills":{
+     "csharp" : "Object-oriented and strongly typed. Perfect fit for reliable and maintainable software.",
+     "js" : "The standard for internet-applications.",
+     "sql": "The standard-syntax for relational databases.",
+     "angular": "awesome framework for SinglePageApplications.",
+     "jquery": "The almost standard library for JavaScript-Applications.",
+     "tfs": "Version control and build system for .NET",
+     "git": "Just do git!",
+     "aspnet": "Web applications on business-level.",
+     "html5": "The newest standards.",
+     "mongodb": "Schema-less open-source database.",
+     "nodejs": "Server-side JavaScript.",
+     "teamCity":"Powerful Continuous Integration."
+ }
+}

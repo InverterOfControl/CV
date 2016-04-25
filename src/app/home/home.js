@@ -12,6 +12,9 @@
  * The dependencies block here is also where component dependencies should be
  * specified, as shown below.
  */
+ 
+ /*global angular*/
+ 
 angular.module( 'SlCV.home', [
   'ui.router'
 ])
@@ -37,7 +40,8 @@ angular.module( 'SlCV.home', [
 /**
  * And of course we define a controller for our route.
  */
-.controller( 'HomeCtrl', function HomeController( $scope ) {
+.controller( 'HomeCtrl', function HomeController( $scope, $translatePartialLoader ) {
+  $translatePartialLoader.addPart('home');
 })
 
 ;
