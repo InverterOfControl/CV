@@ -2,7 +2,6 @@
 
 angular.module( 'SlCV.about', [
   'ui.router',
-  'placeholders',
   'ui.bootstrap'
 ])
 

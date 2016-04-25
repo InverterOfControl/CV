@@ -1,6 +1,5 @@
-﻿angular.module('SlCV.projects', [
+angular.module('SlCV.projects', [
     'ui.router',
-    'placeholders',
     'ui.bootstrap'
 ])
 

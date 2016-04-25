@@ -2,7 +2,6 @@
 
 angular.module('SlCV.contact', [
     'ui.router',
-    'placeholders',
     'ui.bootstrap'
 ])
 
