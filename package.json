@@ -13,9 +13,6 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "bower": "latest",
-    "grunt": "latest",
-    "grunt-cli": "latest",
     "grunt-bump": "latest",
     "grunt-coffeelint": "latest",
     "grunt-contrib-clean": "latest",
