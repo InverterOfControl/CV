@@ -13,7 +13,7 @@
  
 ### bugs
 
-+ mail does not work
++ mail does not work _see also_ [#1](https://github.com/InverterOfControl/CV/issues/1)
 + navigation does not always work
 
 ### functions
