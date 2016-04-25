@@ -68,15 +68,14 @@ module.exports = {
       'vendor/angular-ui-router/release/angular-ui-router.js',
       'vendor/angular-ui-utils/modules/route/route.js',
       'vendor/angular-translate/angular-translate.js',
-      'vendor/angular-translate-loader-partial/angular-translate-loader-partial.js',
-      'vendor/font-mfizz/dist/font-mfizz.css',
-      'vendor/font-mfizz/dist/font-mfizz.woff',
-      'vendor/font-mfizz/dist/font-mfizz.ttf'
+      'vendor/angular-translate-loader-partial/angular-translate-loader-partial.js'
     ],
     css: [
+      'vendor/font-mfizz/dist/font-mfizz.css'
     ],
     assets: [
-	
+	    'vendor/font-mfizz/dist/font-mfizz.ttf',
+      'vendor/font-mfizz/dist/font-mfizz.woff'
     ]
   },
   i18n_files: {

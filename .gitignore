@@ -25,6 +25,7 @@ coverage
 
 # temp build directory
 build
+bin
 
 # Dependency directories
 vendor

@@ -7,6 +7,10 @@
     "type": "git",
     "url": "git@github.com:InverterOfControl/CV.git"
   },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/InverterOfControl/CV/master/LICENSE"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt": "latest",
