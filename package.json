@@ -24,9 +24,13 @@
     "grunt-html2js": "latest",
     "grunt-karma": "latest",
     "grunt-ng-annotate": "latest",
+    "http-server": "^0.9.0",
     "karma": "latest",
-    "karma-coffee-preprocessor": "latest",
     "karma-chrome-launcher": "latest",
+    "karma-coffee-preprocessor": "latest",
     "karma-jasmine": "latest"
+  },
+  "scripts": {
+    "start": "http-server build"
   }
 }
