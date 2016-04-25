@@ -71,11 +71,8 @@ module.exports = {
       'vendor/angular-translate-loader-partial/angular-translate-loader-partial.js'
     ],
     css: [
-      'vendor/font-mfizz/dist/font-mfizz.css'
     ],
     assets: [
-	    'vendor/font-mfizz/dist/font-mfizz.ttf',
-      'vendor/font-mfizz/dist/font-mfizz.woff'
     ]
   },
   i18n_files: {
