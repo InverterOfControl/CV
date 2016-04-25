@@ -167,6 +167,12 @@ module.exports = function ( grunt ) {
             expand: true
           },
           {
+            src: ['**'],
+            dest: '<%= compile_dir %>/i18n',
+            expand: true,
+            cwd: '<%= build_dir %>/i18n'
+          },
+          {
             src: [ '<%= vendor_files.css %>' ],
             dest: '<%= compile_dir %>/',
             cwd: '.',
