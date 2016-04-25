@@ -11,9 +11,9 @@
 
 ### functions
 
-1 no projects yet
-2 switch to bootstrap 4 (?)
-4 make visual apprearance unique (looks too much like bootstrap default)
+1. no projects yet
+2. switch to bootstrap 4 (?)
+3. make visual apprearance unique (looks too much like bootstrap default)
  
 ### bugs
 
