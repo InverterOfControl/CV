@@ -17,5 +17,6 @@
  
 ### bugs
 
-+ mail does not work _see also_ [#1](https://github.com/InverterOfControl/CV/issues/1)
++ page titles not translated _see also_ [#2](https://github.com/InverterOfControl/CV/issues/2)
++ e-mail responses are insonsistent _see also_ [#3](https://github.com/InverterOfControl/CV/issues/3)
 
