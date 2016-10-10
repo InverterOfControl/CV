@@ -72,13 +72,9 @@ module.exports = {
       'vendor/angular-github-repo/angular-github-repo.js'
     ],
     css: [
-      'vendor/angular-github-repo/assets/base.css'
+      
     ],
     assets: [
-      'vendor/angular-github-repo/assets/Entypo-webfont.eot',
-      'vendor/angular-github-repo/assets/Entypo-webfont.svg',
-      'vendor/angular-github-repo/assets/Entypo-webfont.ttf',
-      'vendor/angular-github-repo/assets/Entypo-webfont.woff'
     ]
   },
   i18n_files: {

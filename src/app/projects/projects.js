@@ -1,6 +1,7 @@
 angular.module('SlCV.projects', [
     'ui.router',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'githubRepo'
 ])
 
 .config(function config($stateProvider) {
