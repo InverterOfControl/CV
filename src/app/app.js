@@ -8,7 +8,8 @@ angular.module('SlCV', [
     'SlCV.contact',
     'SlCV.projects',
     'ui.router',
-    'pascalprecht.translate'
+    'pascalprecht.translate',
+    'githubRepo'
 ])
 
 .config(function myAppConfig($stateProvider, $urlRouterProvider, $translateProvider) {
