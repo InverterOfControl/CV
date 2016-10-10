@@ -26,6 +26,9 @@
      "html5": "Neueste Standards.",
      "mongodb": "Schemafreie Open-Source Datanbank.",
      "nodejs": "Serverseitiges JavaScript.",
-     "teamCity":"Powerful Continuous Integration."
+     "teamCity":"Powerful Continuous Integration.",
+     "sharePoint": "Content-Management-System für Zusammenarbeit",
+     "bizTalk": "Automatisieren Sie Prozesse durch Vernetzen Ihrer Anwendungen",
+     "octopusDeploy": "Automated deployment for .NET"
  }
 }

@@ -1,0 +1,79 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 10/10/2016 13:15
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-asp2:before { content: "\f100"; }
+.flaticon-business133:before { content: "\f101"; }
+.flaticon-folder232:before { content: "\f102"; }
+.flaticon-github17:before { content: "\f103"; }
+.flaticon-github6:before { content: "\f104"; }
+.flaticon-google116:before { content: "\f105"; }
+.flaticon-home168:before { content: "\f106"; }
+.flaticon-html3:before { content: "\f107"; }
+.flaticon-java7:before { content: "\f108"; }
+.flaticon-jquery:before { content: "\f109"; }
+.flaticon-linkedin12:before { content: "\f10a"; }
+.flaticon-logotype131:before { content: "\f10b"; }
+.flaticon-logotype3:before { content: "\f10c"; }
+.flaticon-love67:before { content: "\f10d"; }
+.flaticon-sharepoint-logotype:before { content: "\f10e"; }
+.flaticon-sql4:before { content: "\f10f"; }
+.flaticon-team2:before { content: "\f110"; }
+.flaticon-telephone34:before { content: "\f111"; }
+.flaticon-user2:before { content: "\f112"; }
+.flaticon-xing7:before { content: "\f113"; }
+    
+    $font-Flaticon-asp2: "\f100";
+    $font-Flaticon-business133: "\f101";
+    $font-Flaticon-folder232: "\f102";
+    $font-Flaticon-github17: "\f103";
+    $font-Flaticon-github6: "\f104";
+    $font-Flaticon-google116: "\f105";
+    $font-Flaticon-home168: "\f106";
+    $font-Flaticon-html3: "\f107";
+    $font-Flaticon-java7: "\f108";
+    $font-Flaticon-jquery: "\f109";
+    $font-Flaticon-linkedin12: "\f10a";
+    $font-Flaticon-logotype131: "\f10b";
+    $font-Flaticon-logotype3: "\f10c";
+    $font-Flaticon-love67: "\f10d";
+    $font-Flaticon-sharepoint-logotype: "\f10e";
+    $font-Flaticon-sql4: "\f10f";
+    $font-Flaticon-team2: "\f110";
+    $font-Flaticon-telephone34: "\f111";
+    $font-Flaticon-user2: "\f112";
+    $font-Flaticon-xing7: "\f113";
