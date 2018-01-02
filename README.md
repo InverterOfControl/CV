@@ -5,6 +5,7 @@
 ### skills to add
 
 + one more achievement
++ add sitecore to tech
 
 ### functions
 
