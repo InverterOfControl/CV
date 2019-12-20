@@ -1,17 +1,22 @@
-# My CV
+# CV
 
-## Todos:
+> My personal CV
 
-### skills to add
+## Build Setup
 
-+ one more achievement
-+ add sitecore to tech
+``` bash
+# install dependencies
+$ yarn install
 
-### functions
+# serve with hot reload at localhost:3000
+$ yarn dev
 
-4. make achievments populate themselves from an internal list
+# build for production and launch server
+$ yarn build
+$ yarn start
 
-### bugs
+# generate static project
+$ yarn generate
+```
 
-+ page titles not translated _see also_ [#2](https://github.com/InverterOfControl/CV/issues/2)
-
+For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

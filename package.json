@@ -1,19 +1,19 @@
 {
-  "author": "Sascha Laabs",
   "name": "cv",
-  "version": "2.0.0",
-  "homepage": "http://www.saschalaabs.com",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:InverterOfControl/CV.git"
-  },
-  "licenses": [{
-    "type": "MIT",
-    "url": "https://raw.github.com/InverterOfControl/CV/master/LICENSE"
-  }],
-  "dependencies": {},
-  "devDependencies": {
-  },
+  "version": "1.0.0",
+  "description": "My personal CV",
+  "author": "Sascha Laabs",
+  "private": true,
   "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
   }
 }
