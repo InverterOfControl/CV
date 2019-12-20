@@ -1,39 +1,19 @@
 {
   "author": "Sascha Laabs",
-  "name": "CV",
-  "version": "1.0.0",
+  "name": "cv",
+  "version": "2.0.0",
   "homepage": "http://www.saschalaabs.com",
   "repository": {
     "type": "git",
     "url": "git@github.com:InverterOfControl/CV.git"
   },
-  "licenses": {
+  "licenses": [{
     "type": "MIT",
     "url": "https://raw.github.com/InverterOfControl/CV/master/LICENSE"
-  },
+  }],
   "dependencies": {},
   "devDependencies": {
-    "grunt-bump": "latest",
-    "grunt-coffeelint": "latest",
-    "grunt-contrib-clean": "latest",
-    "grunt-contrib-coffee": "latest",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-copy": "latest",
-    "grunt-contrib-jshint": "latest",
-    "grunt-contrib-less": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-conventional-changelog": "latest",
-    "grunt-html2js": "latest",
-    "grunt-karma": "latest",
-    "grunt-ng-annotate": "latest",
-    "http-server": "^0.9.0",
-    "karma": "latest",
-    "karma-chrome-launcher": "latest",
-    "karma-coffee-preprocessor": "latest",
-    "karma-jasmine": "latest"
   },
   "scripts": {
-    "start": "grunt build && http-server build"
   }
 }
